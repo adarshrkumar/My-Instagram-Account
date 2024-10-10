@@ -1,0 +1,28 @@
+html {
+
+}
+
+body {
+  margin: 0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+iframe {
+  height: 100%;
+  width: 100%;
+  border: solid 5px black;
+  border-radius: 25px;
+}
+
+[phonebar] {
+  height: 5px;
+  width: 125px;
+  background: black;
+  border-radius: 5px;
+  transform: translate(70%, -500%);
+  cursor: pointer;
+}

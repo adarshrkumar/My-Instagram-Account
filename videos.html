@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="favicon.png">
+    <title>Instagram</title>
+    <link href="app.css" rel="stylesheet">
+  </head>
+  <body height="100%">
+    <header>
+      <nav>
+        <img src="https://is.gd/L_Arrow" back onclick="window.parent.back()">
+        <span username></span>
+      </nav>
+      <section>
+        <img pfp src="profile.png" onclick="openStory('', '')">
+        <div>
+          <section>
+            <div>
+              <b posts></b>
+            </div>
+            <div profiletext>Posts</div>
+          </section>
+          <section>
+            <div>
+              <b followers></b>
+            </div>
+            <div profiletext>Followers</div>
+          </section>
+          <section>
+            <div>
+              <b following></b>
+            </div>
+            <div profiletext>Following</div>
+          </section>
+        </div>
+      </section>
+      <div info>
+        <span fullname></span>
+        <span work></span>
+        <br>
+        <span bio></span>
+      </div>
+    </header>
+    <main>
+      <nav>
+        <ul>
+          <li align="left" onclick="window.parent.goTo('posts')">
+            Posts
+          </li>
+          <li align="left" onclick>
+            Videos
+          </li>
+          <li align="left" onclick="window.parent.goTo('reels')">
+            Reels
+          </li>
+          <li align="left" onclick="window.parent.goTo('tagged')">
+            Tagged
+          </li>
+        </ul>
+      </nav>
+      <div mainContent>
+        <div row>
+          <div item onclick>
+            <img src="">
+          </div>
+          <div item onclick>
+            <img src="">
+          </div>
+          <div item onclick>
+            <img src="">
+          </div>
+        </div>
+        <div row>
+          <div item onclick>
+            <img src="">
+          </div>
+          <div item onclick>
+            <img src="">
+          </div>
+          <div item onclick>
+            <img src="">
+          </div>
+        </div>
+        <div row>
+          <div item onclick>
+            <img src="">
+          </div>
+          <div item onclick>
+            <img src="">
+          </div>
+          <div item onclick>
+            <img src="">
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
